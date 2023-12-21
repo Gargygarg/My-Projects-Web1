@@ -5,6 +5,14 @@ h1 {
     text-align: center;
     color: olive;
 }
+h3 {
+    text-align: center;
+    color: olive;
+}
+h2 {
+    text-align: center;
+    color: olive;
+}
 
 #N1 {
     display: flex;
@@ -36,29 +44,8 @@ h1 {
 
    
 }
-#N6 {
-    background-color: rgb(1, 16, 53);
 
-   
-}
-#N7 {
-    background-color: rgb(1, 16, 53);
-    flex-grow: 100px;
-    
-    
-
-   
-}
-#N8 {
-    background-color: rgb(1, 16, 53);
-    flex-grow: 100px;
-    
-    
-
-   
-}
-
-.haz {
+.goober {
     
     display: flex;
     flex-direction: column-reverse;
@@ -75,7 +62,7 @@ h1 {
     
 
 }
-.haz > div {
+.goober > div {
     line-height: 2px;
     border-color: black;
     border:solid 2px;
@@ -95,16 +82,16 @@ h1 {
  
 }
 
-.haz1 > div {
+.doober > div {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly
 
     
 }
-.haz1{
+.doober{
     background:rgb(2, 47, 82);
-    height: 560px;
+    height: 440px;
     
     
 }
@@ -115,65 +102,45 @@ height:500px
 
 }
 
-.D {
+.A {
     margin: 10px;
     background: 20;
     padding: 20px;
     border:solid 5px black;
-    
+    color: maroon
     
 }
-.Du {
+.B {
     margin: 10px;
     
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     border:solid 5px black;
-    
+    color: cyan;
 }
-.Dua {
+.C {
     margin: 10px;
    
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     border:solid 5px black;
+    color: gray;
     
 }
-.Dual {
+.D {
     margin: 10px;
    
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     border:solid 5px black;
-}
-.Duali{
-    margin: 10px;
-   
-    padding: 20px;
-    border-radius: 8px;
-    border:solid 5px black;
-}
-.Dualit{
-    margin: 10px;
-   
-    padding: 20px;
-    border-radius: 8px;
-    border:solid 5px black;
-}
-.Duality{ 
-    margin: 10px;
-   
-    padding: 20px;
-    border-radius: 8px;
-    border:solid 5px black;
+    color: darkred;
 }
 
+    
 
-
-
-
-#Image {
+#img1{
     display: flex;
+    justify-content: center;
     justify-self: center;
     align-self: center;
 }
